@@ -40,7 +40,41 @@
     <img class="imga" src="face.jpg" alt="">
 
 </div>
-<div class="right-section"></div>
+<div class="right-section">
+    <div class="containe">
+        <h1>Create an account</h1>
+        <p>It's free and always will be.</p>
+        <form>
+            <input class="feild" type="text" placeholder="First Name" required>
+            <input class="feild" type="text" placeholder="Surname" required>
+            <input class="feild" type="text" placeholder="Mobile number or email address" required>
+            <input class="feild" type="text" placeholder="Re-enter mobile number or email address" required>
+            <input class="feild" type="password" placeholder="New password" required>
+            <label>Birthday</label>
+            <div class="birthday">
+                <select name="day" required>
+                    <option value="">Day</option>
+                    <!-- Add day options here -->
+                </select>
+                <select name="month" required>
+                    <option value="">Month</option>
+                    <!-- Add month options here -->
+                </select>
+                <select name="year" required>
+                    <option value="">Year</option>
+                    <!-- Add year options here -->
+                </select>
+            </div>
+            <div class="gender">
+                <label><input type="radio" name="gender" value="female" required> Female</label>
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+            </div>
+            <p>By clicking Create an account, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.</p>
+            <button type="submit">Create an account</button>
+        </form>
+    </div>
+
+</div>
 
 </div>
     </body>
